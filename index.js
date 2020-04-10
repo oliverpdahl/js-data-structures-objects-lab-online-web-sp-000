@@ -2,7 +2,7 @@
 let driver = {}
 function updateDriverWithKeyAndValue(methodDriver, key, value) {
   let newDriver = Object.assign({}, methodDriver)
-  newDriver[key] = val
+  newDriver[key] = value
   return newDriver;
 }
 
