@@ -10,3 +10,5 @@ function destructivelyUpdateDriverWithKeyAndValue(methodDriver, key, value){
   methodDriver[key] = value;
   return methodDriver
 }
+
+function deleteFromDriverByKey(methodDriver, key)
