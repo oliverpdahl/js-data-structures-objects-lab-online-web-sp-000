@@ -1,12 +1,12 @@
 // Write your solution in this file!
 let driver = {}
-function updateDriverWithKeyAndValue(driver, key, value) {
+function updateDriverWithKeyAndValue(, key, value) {
   let newDriver = Object.assign({}, object)
   newDriver[key] = val
   return newDriver;
 }
 
-function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
+function destructivelyUpdateDriverWithKeyAndValue(methodDriver, key, value){
   driver[key] = value;
   return driver
 }
